@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Selamat Ulang Tahun</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <canvas id="confetti-canvas"></canvas>
+
+        <div class="container">
+            <div id="view1" class="view">
+                <h1>Selamat ulang tahun, Sayangkuuuu 🎉</h1>
+                <img
+                    src="caca.jpg"
+                    alt="Foto Caca"
+                />
+                <p class="message typewriter">
+                    Selamat ulang tahun ke 17! hehe
+                </p>
+                <button onclick="showNextView()">Klik aku dong</button>
+            </div>
+
+            <div id="view2" class="view hidden">
+                <h1>Doa & Harapan 🎂</h1>
+                <p class="message">
+                    Selamat bertambah usia, semoga dengan bertambahnya usia
+                    makin banyak hal hal baik yang datang ke kamu, semoga dengan
+                    bertambahnya usia menjadi lebih bijaksana, makin cantik
+                    dan makin pintar, semoga rezekinya tambah lancar pokoknya
+                    semua yang terbaik buat kamuu
+                    <br /><br />Aku usahakan selalu ada untukmu ❤️
+                </p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    </body>
+</html>
